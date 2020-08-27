@@ -321,18 +321,17 @@
         android:layout_height="wrap_content"
         android:id="@+id/btnAppBar"
         android:layout_gravity="bottom"
-        app:backgroundTint="@color/colorAccent"
+        app:backgroundTint="@color/colorPrimary"
         app:fabCradleMargin="8dp"
         app:fabCradleVerticalOffset="6dp"
         app:fabCradleRoundedCornerRadius="30dp"
-        app:navigationIcon="@drawable/ic_baseline_menu_24"
         app:menu="@menu/bottom_menu"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/ic_baseline_add_24"
-        app:backgroundTint="@color/colorPrimary"
+        app:backgroundTint="@color/colorAccent"
         app:layout_anchor="@+id/btnAppBar"
         app:maxImageSize="30dp"
         app:tint="@color/colorWhite"/>
